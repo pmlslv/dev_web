@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check In - FMF Hotel</title>
+</head>
+<body>
+    <fieldset>
+        <div>
+            <h1 id="titulo">Check-in - FMF Hotel</h1>
+            <p>Preencha os campos abaixo para fazer o Check-in </p>
+            <br>
+        </div>  
+        
+        <form action="">
+            <fieldset>
+                <div>
+                    <label for="">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+    
+                <br>
+    
+                <div>
+                    <label for="">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+    
+                <br>
+    
+                <div>
+                    <label for="">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+    
+                <br>
+                
+                <div>
+                    <label for="">Senha</label>
+                    <input type="password" placeholder="************">
+                </div>
+            </fieldset>   
+
+            <br>
+            
+            <fieldset>
+                <h3>Informações Pessoais</h3>
+                <div>
+                    <label for="">Gênero</label>
+                    <label for="">
+                        <input type="radio" name="genero" id="genero" value="Masculino">Masculino
+                        <input type="radio" name="genero" id="genero" value="Feminino">Feminino
+                        <input type="radio" name="genero" id="genero" value="nao_declarou">Prefiro não declarar
+                    </label>
+                </div>
+    
+                <br>
+    
+                <div>
+                    <label for="">Aniversário</label>
+                    <input type="date">
+                </div>
+    
+                <div>
+                    <p>Endereço:</p>
+                    <label for="">Estado</label>
+                    <select name="" id="estado">
+                        <option value="" selected disabled></option>
+                        <option value="Acre">AC</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Amapa">AP</option>
+                        <option value="Amazonas">AM</option>
+                        <option value="Bahia">BA</option>
+                        <option value="Ceara">CE</option>
+                        <option value="Distrito">DF</option>
+                        <option value="Espirito">ES</option>
+                        <option value="Goias">GO</option>
+                        <option value="Maranhao">MA</option>
+                        <option value="Mato_Grosso">MT</option>
+                        <option value="Mato_Grosso_S">MS</option>
+                        <option value="Minas">MG</option>
+                        <option value="Para">PA</option>
+                        <option value="Paraiba">PB</option>
+                        <option value="Parana">PR</option>
+                        <option value="Pernambuco">PE</option>
+                        <option value="Piaui">PI</option>
+                        <option value="Rio_janeiro">RJ</option>
+                        <option value="Rio_Grande_N">RN</option>
+                        <option value="Rio_Grande_S">RS</option>
+                        <option value="Rondonia">RO</option>
+                        <option value="Roraima">RR</option>
+                        <option value="Santa_Catarina">SC</option>
+                        <option value="Sao_Paulo">SP</option>
+                        <option value="Sergipe">SE</option>
+                        <option value="Tocantins">TO</option>
+                    </select>
+                    <label for="">Cidade</label>
+                    <input type="text">
+                </div>
+            </fieldset>
+
+            <br>
+    
+            <fieldset>
+                <div>
+                    <h3>Informações de Check-in</h3>
+                    <p>Data de entrada:</p>            
+                    <input type="datetime-local" name="" id="">
+                    <p>Data de saída:</p>            
+                    <input type="datetime-local" name="" id="">
+                </div>
+            </fieldset>
+        </form>
+    </fieldset>
+    <br>
+    <button type="submit">Concluir</button>
+</body>
+</html>
